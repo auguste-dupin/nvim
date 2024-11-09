@@ -25,6 +25,7 @@ require("lazy").setup({
 	require("plugins.gitsigns"),
 	require("plugins.greetscreen"),
 	require("plugins.vertlines"),
+	require("plugins.hydrovim"), -- run programs inline
 
 	require("plugins.others"),
 })
