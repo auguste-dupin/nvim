@@ -12,7 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    'tpope/vim-sleuth',
+	"tpope/vim-sleuth",
 	require("plugins.neotree"),
 	require("plugins.bufferline"),
 	require("plugins.colorthemes"),
@@ -24,4 +24,6 @@ require("lazy").setup({
 	require("plugins.autocomplete"),
 	require("plugins.format"),
 	require("plugins.gitsigns"),
+	require("plugins.greetscreen"),
+	require("plugins.vertlines"),
 })
