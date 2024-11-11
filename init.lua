@@ -26,6 +26,10 @@ require("lazy").setup({
 	require("plugins.greetscreen"),
 	require("plugins.vertlines"),
 	require("plugins.hydrovim"), -- run programs inline
+	require("plugins.comment-out"),
+	require("plugins.multicursor"),
+	require("plugins.obsidian"),
+	require("plugins.markview"),
 
 	require("plugins.others"),
 })
